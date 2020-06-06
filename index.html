@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" href="./style.css">
+    <title>Food Recipes</title>
+</head>
+<body>
+    <!-- header starts -->
+    <header>
+        <div class="container">
+            <a href="#" class="brand-name">FOOD RECIPES <i class="fas fa-utensils"></i></a>
+            <form action="" id="submit">
+                <input type="text" placeholder="Search recipes here" id="search"/>
+             <i class="fa fa-search search-btn"></i>
+             <i class="fas fa-random random-btn" id="random-btn"></i>
+            </form>
+        </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- results section starts -->
+    <section class="results">
+    <div class="container">
+         <div class="alert" id = "alert">
+             <p>Please enter something to search!</p>
+         </div>
+         <div id="result-heading" class="results-title"></div>
+         <div class="results-grid" id="meals"></div>
+         <div id="single-meal"></div>
+    </div>
+    </section>
+
+    <!-- results section ends -->
+   <script src="script.js"></script> 
+</body>
+</html>
