@@ -78,8 +78,8 @@ header input:focus{
 .fa-search{
     color: var(--blue);
     background-color: var(--white);
-    font-size: 2rem;
-    padding: 6px 1rem;
+    font-size: 1.5rem;
+    padding: 0.6rem 1rem;
     cursor: pointer;
     border-top-right-radius: 0.3rem;
     border-bottom-right-radius: 0.3rem;
@@ -88,8 +88,8 @@ header input:focus{
 .fa-random{
     color: var(--blue);
     background-color: var(--white);
-    font-size: 2rem;
-    padding: 6px 1rem;
+    font-size: 1.5rem;
+    padding: 0.6rem 1rem;
     cursor: pointer;
     margin-left: 1rem;
     border-radius: 0.3rem;
