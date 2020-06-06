@@ -79,7 +79,7 @@ header input:focus{
     color: var(--blue);
     background-color: var(--white);
     font-size: 2rem;
-    padding: 0.5rem 1rem;
+    padding: 6px 1rem;
     cursor: pointer;
     border-top-right-radius: 0.3rem;
     border-bottom-right-radius: 0.3rem;
@@ -89,7 +89,7 @@ header input:focus{
     color: var(--blue);
     background-color: var(--white);
     font-size: 2rem;
-    padding: 0.5rem 1rem;
+    padding: 6px 1rem;
     cursor: pointer;
     margin-left: 1rem;
     border-radius: 0.3rem;
