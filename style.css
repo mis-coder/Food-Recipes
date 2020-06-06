@@ -255,6 +255,11 @@ header input:focus{
 
 
  /* media queries */
+@media only screen and (min-width: 400px){
+  .fa-search, .fa-random{
+      font-size: 1.5rem;
+    }
+}
 @media only screen and (min-width: 600px) and (max-width: 800px){
     header{
         height: 20rem;
