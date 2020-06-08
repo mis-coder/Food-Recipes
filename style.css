@@ -20,7 +20,7 @@ body{
     background: var(--grey) url('./images/five-white-plates-with-different-kinds-of-dishes-54455.jpg') center no-repeat;
     background-size: cover;
     height: 100vh;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif,arial;
 }
 
 a{
