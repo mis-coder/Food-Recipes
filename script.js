@@ -202,3 +202,11 @@ window.addEventListener('load',() =>{
 document.querySelector('.brand-name').addEventListener('click', ()=>{
     location.reload();
 });
+
+
+//remove preloader
+function removePreloader(){
+   document.querySelector('.preloader').style.display = 'none';
+   document.querySelector('.preloader').style.zIndex = '-10';
+   document.body.style.overflow = 'visible';
+}
