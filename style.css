@@ -78,7 +78,7 @@ header input:focus{
 .fa-search{
     color: var(--blue);
     background-color: var(--white);
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 0.5rem 1rem;
     cursor: pointer;
     border-radius: 0.3rem;
@@ -88,7 +88,7 @@ header input:focus{
 .fa-random{
     color: var(--blue);
     background-color: var(--white);
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 0.5rem 1rem;
     cursor: pointer;
     margin-left: 1rem;
@@ -323,7 +323,7 @@ header input:focus{
 
 
  /* media queries */
- @media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px){
      .results-grid-item{
         cursor: default;
      }
