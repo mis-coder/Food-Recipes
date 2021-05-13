@@ -60,7 +60,7 @@ function searchMeal(e){
                         <h1>Welcome to Food Recipes</h1>
                         <p>Search for any recipes. Enjoy your meals!</p>          
       </div>`;
-      }, 2000);
+      }, 500);
    }
 }
 
